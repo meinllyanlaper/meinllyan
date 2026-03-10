@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    font-family:'Agbalumo';
+}
+header img{
+    height: 160px;
+}
+nav a{
+    text-decoration: none;
+    color:green;
+    font-size: 20px;
+    padding: 5px 15px;
+    font-family:monospace;
+    color: darkred;
+     border-radius:20px 0px 20px 0px;
+    transition: 1s;
+    
+}
+header{
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+    background-color:#FDAE51
+}
+nav{
+    padding:10px;
+    margin-top: 5px;
+}
+nav a:hover{ 
+    color:ivory;
+    background-color:#F0791D;
+    border-radius: 30px 30px 30px 30px;
+    transition: 1s;
+}
+
+.deskripsiHome{
+    font-family:initial;
+    width: 40%;
+    margin-left: 50px; 
+    & h3{
+        color:orangered;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    & p{
+        color:ivory;
+    }
+    & h1{
+        color:rgb(202, 3, 3);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+.home{
+    background-image: url(bgoncom.jpg.png);
+    height: 600px;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.deskripsiHome a{
+    text-decoration:none;
+    font-family:serif;
+    color:darkred;
+    background: #FCB437;
+    background: linear-gradient(30deg, rgba(252, 180, 55, 1) 0%, rgba(242, 158, 51, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px -2px;
+}
+
+.deskripsiHome a:hover{
+    box-shadow: 5px 5px 10px -2px;
+    padding: 11px 31px;
+}
+
+.about{
+    height: 800px;
+    background-color: bisque;
+}
+
+.containerAbout{
+    background-color: #F0791D;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    height: 100%;
+    padding-top: 50px;
+    & h3{
+        color:#FCB437;
+        box-shadow: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    & p{
+        color:ivory;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+
+.containerAbout img{
+    height: 200px;
+}
+
+section.profile{
+    height: 800px;
+    text-align:center;
+}
+.cardProfile{
+    background-color:#F0791D;
+    padding:15px;
+    width:300px;
+    margin:auto;
+    text-align: center;
+}
+
+.imgProfile img{
+    width: 10px;
+}
+
+.medsos{
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    height:40px;
+}
+
+.medsos a{
+    text-decoration:none;
+    padding: 15px 20px;
+    font-size:24px;
+}
