@@ -1,9 +1,15 @@
 body{
     margin: 0;
     font-family:'Agbalumo';
+    background-image: url(Kayu.png);
+    background-size: 1000px;
 }
+
+
 header img{
-    height: 160px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 nav a{
     text-decoration: none;
@@ -11,23 +17,32 @@ nav a{
     font-size: 20px;
     padding: 5px 15px;
     font-family:monospace;
+    text-align: center;
     color: darkred;
      border-radius:20px 0px 20px 0px;
-    transition: 1s;
+    transition: 0.2s;
     
 }
 header{
     text-align: center;
     box-shadow: 0px 0px 5px;
-    background-color:#FDAE51
+    background-color:#FCB437;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:#F0791D;
 }
 nav{
     padding:10px;
     margin-top: 5px;
+    margin-left: 32%;
 }
 nav a:hover{ 
-    color:ivory;
-    background-color:#F0791D;
+    color:#F0791D;
+    background-color:ivory;
     border-radius: 30px 30px 30px 30px;
     transition: 1s;
 }
@@ -35,6 +50,7 @@ nav a:hover{
 .deskripsiHome{
     font-family:initial;
     width: 40%;
+    margin-top: 125px;
     margin-left: 50px; 
     & h3{
         color:orangered;
@@ -50,11 +66,11 @@ nav a:hover{
 }
 
 .home{
-    background-image: url(bgoncom.jpg.png);
-    height: 600px;
+    background-image: url(ONCOM.jpg);
+    height: 925px;
     background-size: cover;
     padding-top: 50px;
-}
+}   
 
 .deskripsiHome a{
     text-decoration:none;
@@ -73,58 +89,108 @@ nav a:hover{
 }
 
 .about{
-    height: 800px;
-    background-color: bisque;
+    height: 900px;
+        background-image: url(Kayu.png);
+        background-size: 1000px;
 }
 
 .containerAbout{
     background-color: #F0791D;
     width: 50%;
+    padding-top: 50px;
     margin-left: 25%;
     text-align: center;
     height: 100%;
-    padding-top: 50px;
     & h3{
-        color:#FCB437;
-        box-shadow: 100px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        color:blanchedalmond; 
+    }
+    & h1{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        color:firebrick;
+        padding: 0px 20px 0px 20px;
     }
     & p{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        text-align: justify;
         color:ivory;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 0px 20px 0px 20px;
     }
 }
 
 .containerAbout img{
     height: 200px;
+    width: 50%;
 }
 
 section.profile{
     height: 800px;
-    text-align:center;
+    padding-top: 50px;
+    background-color: #F0791D;
 }
 .cardProfile{
-    background-color:#F0791D;
-    padding:15px;
+    background-color:#FDAE51;
+    padding: 50px;
+    margin-top: 75px;
     width:300px;
-    margin:auto;
+    margin: auto;
     text-align: center;
 }
-
-.imgProfile img{
-    width: 10px;
-}
-
-.medsos{
-    left:0;
-    bottom:0;
+img{
     width:100%;
-    text-align:center;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
     height:40px;
+    padding-top:5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+
 }
 
-.medsos a{
-    text-decoration:none;
-    padding: 15px 20px;
-    font-size:24px;
+section.howto{
+    height: 650px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+     background-color: #F0791D;
+    width: 78%;
+    margin-left: 200px;
+    & h3{
+         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        color:blanchedalmond;
+    }
+    & p{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        text-align: justify;
+        color:firebrick;
+    }
+}
+
+.howto img{
+    height: 500px;
+    padding-top: 75px;
+}
+
+.deskHowto{
+    display:flex;
+    width: 90%;
+    margin: 20px;
+}
+
+.dokumentasi{
+    width: 80%;
+    margin-left:50px;
 }
